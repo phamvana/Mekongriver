@@ -7,6 +7,25 @@ body{
     background-color: black;
     color: white;
     font-size: large;
+    display: block;
+    height: 41px;
+    width: 100%;
 }
-
-h1{color: orange;}
+li{
+    display: inline;
+}
+ul.menu{
+    list-style-type:none;
+}
+ul a:link, a:visited{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+ul a:hover{
+    background-color: red;
+}
+h1{color: orange;}  
